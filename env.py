@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = os.getenv("API_ID", "25996320").strip()
 API_HASH = os.getenv("API_HASH", "772cefc3a92ed382b6c24adbd0d3ea26").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6339228473:AAHLnkA9L5CTMxZlScaYMFfzk8kOOfRxE8o").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "JDBC connection basics").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "https://t.me/mane5u")
 
 if not API_ID:
